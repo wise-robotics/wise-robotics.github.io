@@ -29,7 +29,7 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
+author: "WISE Robotics"
 title: "WISE Robotics"
 description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
@@ -108,23 +108,13 @@ syntax-highlight: True
 # Timeline #
 ############
 
-events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
-
-# First image of the Timeline
-
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/empty.png"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "contact@wise-robotics.com"
 
 ################
 # Author Blurb #
@@ -142,14 +132,8 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
-  - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  - title: "envelope"
+    url: "mailto: contact@wise-robotics.com"
   - title: "rss"
     url: "/feed.xml"
 
@@ -157,7 +141,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404-img: "/img/404.jpg"
 
 ################################################################################
 
@@ -168,7 +152,8 @@ social:
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
+  Skills: 'skills'
+  Projects: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site

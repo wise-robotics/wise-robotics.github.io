@@ -9,7 +9,7 @@
 
       <ul class="timeline">
 
-        {% for event in site.events %}
+        {% for event in site.data.projects %}
           {% assign loopindex = forloop.index | modulo: 2 %}
           {% capture class %}
           {% if loopindex == 0 %}
@@ -19,11 +19,19 @@
 
           <li class="{{ class }}">
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
+              {% if event.image %}
+                <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
+              {% else %}
+                <img class="img-circle img-responsive" src="{{site.baseurl}}/img/empty.png" alt="">
+              {% endif %}
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
+                <h3>{{ event.title }}</h3>
+
+                {% if event.date %}
                 <h4>{{ event.date }}</h4>
+                {% endif %}
               </div>
               <div class="timeline-body">
                 {{ event.description | markdownify }}

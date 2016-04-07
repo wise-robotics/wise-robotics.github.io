@@ -1,0 +1,44 @@
+- title: LIDAR Based Mobile Robot Localization
+  date: September 2015 - Today
+  description: |
+      Using an industrial LIDAR embedded on a robot in order to extract absolute position.
+      This computed pose obtained is fused with odometry and inertial sensors to achieve better resolution and dynamic performance.
+
+- title: High Performance DC-Motor Control
+  date: September 2014 - June 2015
+  description: |
+      Development of a miniature motor controller board.
+      The controller is capable of following a trajectory profile for torque, velocity and position setpoints.
+      It is connected to a CAN-bus for control and configuration.
+
+- title: Satellite Attitude Determination
+  description: |
+      Spacecraft attitude determination using state-of-the-art Kalman filter based sensor fusion with low-power consumption constraints.
+      Including integration in a real time embedded system of a nanosatellite.
+
+- title: Satellite Mechanical Subsystem Design
+  description: |
+      Development of an energy storage module for a nanosatellite.
+      The project included the electronics design of the primary power switch and mechanical design of a thermally insulated battery box.
+      The challenges were the size and weight constraints as well as the resistance to the vibrations of the rocket launch environment.
+
+- title: Smart Energy Metering System
+  description: |
+      The device uses a set of image processing filters for digit extraction and neural network based classification for meter readout.
+      The result is then transmitted over a low power wireless network to a custom logging server.
+      This has been implemented in a battery powered product with low-power constraints.
+
+- title: Stereo-Vision Based Localization
+  description: |
+      A binocular localization system was built and programmed for a self-stabilized platform.
+      The system relied on vision feedback to extract and track stereo-feature pairs that were fused into a Kalman filter in order to infer position, attitude and velocity of the system.
+
+- title: Small Mobile Robot for Engineering Education
+  description: |
+      Design and implementation of the electronics, firmware, communication stack and porting of a virtual machine based framework for a small mobile robot.
+      It lays the ground for an education platform that allows the exploration of various concepts.
+
+- title: Development of a Basic Motor Intention Decoder Using Electroencephalogram (EEG)
+  description: |
+      Identification of basic motor intention based on motor imagery process.
+      The project included data acquisition, pre-processing, feature extraction and classification using machine learning methods.
