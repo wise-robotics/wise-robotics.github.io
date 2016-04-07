@@ -5,7 +5,8 @@
       Using an industrial LIDAR embedded on a robot in order to extract absolute position.
       This computed pose obtained is fused with odometry and inertial sensors to achieve better resolution and dynamic performance.
 
-- title: High Performance DC-Motor Control
+# &#8209; is a non breaking hyphen
+- title: High Performance DC&#8209;Motor Control
   date:
       begin: 09/2014
       end: 06/2015
