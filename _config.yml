@@ -104,12 +104,6 @@ disqus-shortname: "panossakkos"
 
 syntax-highlight: True
 
-############
-# Timeline #
-############
-
-timeline-img: "/img/empty.png"
-
 ###########
 # Contact #
 ###########
