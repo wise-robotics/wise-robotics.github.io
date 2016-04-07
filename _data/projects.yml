@@ -1,11 +1,14 @@
 - title: LIDAR Based Mobile Robot Localization
-  date: September 2015 - Today
+  date:
+      begin: 09/2015
   description: |
       Using an industrial LIDAR embedded on a robot in order to extract absolute position.
       This computed pose obtained is fused with odometry and inertial sensors to achieve better resolution and dynamic performance.
 
 - title: High Performance DC-Motor Control
-  date: September 2014 - June 2015
+  date:
+      begin: 09/2014
+      end: 06/2015
   description: |
       Development of a miniature motor controller board.
       The controller is capable of following a trajectory profile for torque, velocity and position setpoints.
@@ -38,7 +41,7 @@
       Design and implementation of the electronics, firmware, communication stack and porting of a virtual machine based framework for a small mobile robot.
       It lays the ground for an education platform that allows the exploration of various concepts.
 
-- title: Development of a Basic Motor Intention Decoder Using Electroencephalogram (EEG)
+- title: Development of a Basic Motor Intention Decoder Using EEG
   description: |
       Identification of basic motor intention based on motor imagery process.
       The project included data acquisition, pre-processing, feature extraction and classification using machine learning methods.

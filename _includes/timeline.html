@@ -27,10 +27,14 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h3>{{ event.title }}</h3>
+                <h4>{{ event.title }}</h4>
 
                 {% if event.date %}
-                <h4>{{ event.date }}</h4>
+                <h4>
+                    {{ event.date.begin | date: "%B '%y" }}<br>
+                    -<br>
+                    {{ event.date.end | | date: "%B '%y" | default: "Today" }}
+                </h4>
                 {% endif %}
               </div>
               <div class="timeline-body">
