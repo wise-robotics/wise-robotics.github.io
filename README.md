@@ -1,4 +1,4 @@
-# CVRA website
+# Wise Robotics website
 
 ## Install dev tools
 
