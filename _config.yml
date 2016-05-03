@@ -115,12 +115,7 @@ author_blurb_image: "/img/author.png"
 # Social Buttons #
 ##################
 
-social:
-  - title: "envelope"
-    url: "mailto: contact@wise-robotics.com"
-  - title: "rss"
-    url: "/feed.xml"
-
+social: []
 ############
 # 404 page #
 ############
