@@ -158,3 +158,5 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
+
+google-tracking-id: "UA-46740662-2"
