@@ -55,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Great companies are built on great products."
+  - text: "\\\"Great companies are built on great products.\\\" - Elon Musk"
 
 me-img: "/img/wise-robotics-inverted.png"
 
